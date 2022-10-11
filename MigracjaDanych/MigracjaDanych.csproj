@@ -38,6 +38,9 @@
       <HintPath>C:\Program Files (x86)\Soneta\enova365 2112.6.10.0\Soneta.Business.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Soneta.Core">
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Soneta.CRM, Version=2112.6.10.0, Culture=neutral, PublicKeyToken=a19fc6236fd34393, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>C:\Program Files (x86)\Soneta\enova365 2112.6.10.0\Soneta.CRM.dll</HintPath>
@@ -62,6 +65,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppLogic.cs" />
     <Compile Include="Contractor.cs" />
     <Compile Include="ModuleLoader.cs" />
     <Compile Include="Program.cs" />

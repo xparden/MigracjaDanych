@@ -14,7 +14,7 @@ namespace MigracjaDanych
             {
                 var loader = new Soneta.Start.Loader
                 {
-                    WithExtensions = true,
+                    WithExtensions = false,
                     WithUI = false
                 };
 
